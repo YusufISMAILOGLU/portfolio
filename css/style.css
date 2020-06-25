@@ -817,6 +817,7 @@ padding-top: 5.5rem;
     pointer-events: none;
     transition: all .5s ease;
     padding: .25rem;
+    font-size: .8rem;
 }
 .captilize{
     text-transform: capitalize;
