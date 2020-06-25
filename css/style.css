@@ -830,6 +830,7 @@ padding-top: 5.5rem;
     color: var(--color-accent);
     font-size: .8rem;
     opacity: .6;
+    margin-left: -.9rem;
 }
 .input-field input:valid ~ .placeholder,
 .input-field textarea:valid ~ .placeholder
