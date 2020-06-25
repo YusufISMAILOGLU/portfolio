@@ -827,13 +827,15 @@ padding-top: 5.5rem;
 {
     transform: translateY(-20px);
     color: var(--color-accent);
+    font-size: .8rem;
+    opacity: .6;
 }
 .input-field input:valid ~ .placeholder,
 .input-field textarea:valid ~ .placeholder
 {
     transform: translateY(-20px);
     color: var(--color-accent);
-    font-size: 1rem;
+    font-size: .8rem;
     opacity: .6;
 }
 .input-field input[type="submit"]{
