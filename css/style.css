@@ -142,6 +142,7 @@ margin-bottom: .25em;
     background:rgba(2, 37, 52,);
     width: 100%;
     transition: all .5s linear;
+    height:100px;
 }
 .logo a{
     outline: none;
@@ -230,11 +231,11 @@ padding-top: 5.5rem;
     background-size: cover;
     background-repeat: no-repeat; */
     width: 100%;
-    margin: 0 auto;
-    height: 100vh;
+    height: calc(100vh - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 200px;
 }
 .section-title-intro{
     font-weight: var(--fontwidth-regular);
