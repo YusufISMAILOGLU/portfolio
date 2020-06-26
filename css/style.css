@@ -20,7 +20,7 @@
     /* --color-accent: #16e0bd; */
     /* --color-accent:#70d5ff; */
     --color-accent:#2d7a9c;
-    --color-accent-1:#96c7d5;
+    --color-accent-1:rgb(150, 199, 213);
     --color-yellow:rgb(239, 186, 52);
     --color-red:#FF568c;
     --color-blue:#0F3959;
@@ -240,11 +240,12 @@ padding-top: 5.5rem;
     color: var(--color-accent-1);
 }
 .section-title-intro span{
-    /* font-weight: var(--fontwidth-regular); */
+    font-weight: var(--fontwidth-bold);
     display: block;
-    font-family: var(--fontfamily-secondary);
+    /* font-family: var(--fontfamily-secondary); */
     margin: 2rem 0;
     color: var(--color-accent-1);
+    -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(150, 199, 213,.2));
 }
 .section-subtitle-intro-container{
     text-align: center;
