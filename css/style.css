@@ -226,16 +226,12 @@ padding-top: 5.5rem;
 /***************************************************/
 /* Introduction Sec. */
 .intro{
-    /* background-image: url('../images/bcg-1.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat; */
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100% - 200px);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 200px;
+    padding: 100px auto;
 }
 .section-title-intro{
     font-weight: var(--fontwidth-regular);
@@ -251,7 +247,7 @@ padding-top: 5.5rem;
     color: var(--color-accent-1);
 }
 .section-subtitle-intro-container{
-    text-align: right;
+    text-align: center;
 }
 .section-subtitle-intro{
     display: inline-block;
@@ -260,8 +256,6 @@ padding-top: 5.5rem;
     font-weight: var(--fontwidth-bold);
     font-family: 'Source Code Pro', monospace;
     color: var(--color-accent-1);
-    /* margin-top: 1rem; */
-    text-align: right;
 }
 .section-subtitle-intro::after{
     position: absolute;
@@ -274,27 +268,16 @@ padding-top: 5.5rem;
     
 }
 
-
-.intro-image{
-/* box-shadow: var(--boxshadow); */
-}
-
 /*Responsive title intro text for small screens*/
 @media(max-width:599px){ 
-    /* h1{
-        font-size: 10vw;
-    } */
+    .section-title-intro{
+        font-size: var(--fontsize-h2);
+    }
 
 }
 @media(min-width:600px){
-    .intro{
-        /* display: grid;
-        width: min-content;
-        margin: 0 auto;
-        grid-column-gap: 1em;
-        grid-template-areas: "image title" 
-                            "image subtitle";
-        grid-template-columns: min-content max-content; */
+    .section-subtitle-intro-container{
+        text-align: right;
     }
 }
 
@@ -373,10 +356,11 @@ padding-top: 5.5rem;
 }
 .section-subtitle-about{
     margin-bottom: 2rem;
-    text-transform: capitalize;
+    text-align: justify;
 }
 .about-me-body{
     margin-top: 1rem;
+    text-align: justify;
 }
 .about-me-body a{
     text-decoration: none;
@@ -407,10 +391,9 @@ padding-top: 5.5rem;
     }
     .side-image{
         cursor: pointer;
-        /* outline: 3px solid var(--color-accent) ;
-        outline-offset: 5px; */
         transition: all .5s ease;
         opacity: .7;
+        margin-left: 1rem;
     }
     
     
