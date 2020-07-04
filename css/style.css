@@ -395,6 +395,12 @@ padding-top: 5.5rem;
         transition: all .5s ease;
         opacity: .7;
         margin-left: 1rem;
+        /* margin-bottom:-200rem; */
+
+        grid-area: image;
+        position: relative;
+        z-index: 2;
+
     }
     
     
@@ -404,11 +410,7 @@ padding-top: 5.5rem;
         opacity: 1;
     
     }
-    .side-image{
-        grid-area: image;
-        position: relative;
-        z-index: 2;
-    }
+
     .section-title-about{
         grid-area:title;
     }
@@ -425,6 +427,7 @@ padding-top: 5.5rem;
 
     .about-me-body{
         grid-area:text;
+        margin-top: 3rem;
     }
 
 }
