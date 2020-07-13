@@ -147,13 +147,17 @@ margin-bottom: .25em;
 .logo a{
     outline: none;
 }
-.nav-btn{
+.nav-btn, .change{
     align-self: center;
     cursor: pointer;
     z-index: 1001;
 }
 .nav-btn:hover{
     cursor: pointer;
+}
+.change{
+    position: fixed;
+    right: 2rem;
 }
 .bar1,.bar2,.bar3{
     width: 25px;
@@ -168,12 +172,7 @@ margin-bottom: .25em;
 .bar3{
     width: 15px;
 }
-.change{
-    position: fixed; 
-    right: 2rem;
-    top: 2.5rem;
-    z-index: 1001;
-}
+
 .change .bar1{
     transform:  translateY(.67rem) rotate(-45deg) ;
     transition: all 1s ease;
