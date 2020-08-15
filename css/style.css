@@ -244,7 +244,7 @@ padding-top: 5.5rem;
     /* font-family: var(--fontfamily-secondary); */
     margin: 2rem 0;
     color: var(--color-accent-1);
-    -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(150, 199, 213,.2));
+    /* -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(150, 199, 213,.2)); */
 }
 .section-subtitle-intro-container{
     text-align: center;
@@ -479,30 +479,24 @@ padding-top: 5.5rem;
 }
 .portfolio-img-1{
     background: url("../images/Juice_Smoothie_Shop.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
 }
 .portfolio-img-2{
     background: url("../images/Motorcycle_Dealership.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .portfolio-img-3{
     background: url("../images/Wikipedia_Search_Engine.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .portfolio-img-4{
     background: url("../images/AC_Mobilya.png");
+}
+.portfolio-img-5{
+    background: url("../images/Ancient-World-Tours.png");
+}
+.portfolio-img{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .project-overlay{
     width: 100%;
     height: 100%;
